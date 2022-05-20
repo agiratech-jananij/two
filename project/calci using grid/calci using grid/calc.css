@@ -1,0 +1,41 @@
+ *{
+    box-sizing: border-box;
+}
+body{
+    margin: 200px;
+}
+.calculator{
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 500px;
+    margin: 0 auto;
+}
+.calculator input{
+    background: none;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid green;
+    text-align: right;
+    font-size: 40px;
+}
+.calci-button{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 400px;
+    
+}
+.buttons{
+    border: 1px solid green;
+    font-size: 29px;
+    background-color: white;
+    font-weight: bold;
+}
+.operator{
+    background-color: white;
+    border: 1px solid green;
+    font-size: 29px;
+    font-weight: bold;
+}

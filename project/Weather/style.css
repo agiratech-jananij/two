@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:azure;
+}
+.weather-container{
+    width: 410px;
+    margin: 50px auto;
+    padding: 10px;
+}
+.weather-main{
+    background-color:#9beefb;
+    text-align: center;
+    justify-content: center; 
+    padding: 2rem 0 2rem 0;
+}
+#cities{
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px;
+    height: 2.5rem;
+    width: 15rem;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #c2c2c2;
+    border-radius: 2px;
+    margin-right: 4px;
+}
+#sign{
+    height: 3rem;
+    width: 5.5rem;
+    background: #a1a83a;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+}
+.screen{
+    background-color: grey;
+    text-align: center;
+    width: 400px;
+    color: #16a864;
+}
+.screen-display{
+    margin: 0 9rem;
+    height: 35vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+.city-output{
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.screen-display p{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #04214c;
+    font-size: 23px;
+}
+.screen-display h2 span{
+    font-size: 26px;
+    color: #9beefb;
+}
+.screen-display p span{
+    font-size: 25px;
+    color: #90006e;
+}
