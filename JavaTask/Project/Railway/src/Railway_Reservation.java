@@ -40,7 +40,7 @@ public class Railway_Reservation
 		public void infodetails()
 		{
 			System.out.println("Your Ticket Reservation");
-			System.out.println("Your Details................");
+			System.out.println("Your Details......");
 			System.out.println("The Numbers of Passengers:" +Passenger);
 			for(int i=0;i<Passenger;i++) 
 			{
